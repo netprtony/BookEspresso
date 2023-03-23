@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Official BookEspresso | BookEspresso.com </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="favicon4.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>  
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <section class="header" style="background-color: #f90; color: #fff; height: 30px; ">
+            <strong style="text-align: center; display: block; font-size: .75em; padding: 5px;">FREE Shipping on VN orders of 1.000.000 VND</strong>
+    </section>
+    <div class="container"> 
+        <section class="menu py-3">
+            <div class="row mx-3">
+                <div class="col my-1 px-5">
+                    <a class="navbar-brand" href="#">
+                        <img src="book.png" alt="book espresso" width="120" height="120">
+                    </a>
+                </div>
+                <div class="col py-5">
+                    <div class="row" style="margin-left: 10px; position: relative; flex-direction:row-reverse;">
+                        <div class="col-3">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                                <span class="navbar-toggler-icon mt-3">
+                                    <img src="archive.svg" style="height: 25px; width: 25px; margin-top:-1.75em;">
+                                </span>
+                            </button>
+                            <div style="height: 25rem; background-color: rgb(255, 255, 255);" class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                                <div class="offcanvas-header">
+                                    <h3 class="offcan   vas-title mt-4" id="offcanvasDarkNavbarLabel" style="margin-left: 30rem; color: #f90;">Your Bag is emmty.</h3>
+                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body" style="margin-left: 30rem; color: #f90;">
+                                    <p class="fw-light" style="color: #f90;">
+                                        <a href="#" style="text-decoration: none;"><b>Sign up</b></a> to see if you have any save items
+                                    </p>
+                                     
+                                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">
+                                                <img src="gift.svg" style="width: 16; height: 25; margin-bottom: 5px; color: #f90;"> 
+                                                <span style="margin-left: 10px;"><strong>Your gift</strong></span>
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">
+                                                <img src="inbox.svg" style="width: 16; height: 25; margin-bottom: 5px;"> 
+                                                <span style="margin-left: 10px;"><strong>Order</strong></span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">
+                                                <img src="pin.svg" style="width: 16; height: 25; margin-bottom: 5px;"> 
+                                                <span style="margin-left: 10px;"><strong>Your saves</strong></span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">
+                                                <img src="person-fill.svg" style="width: 16; height: 25; margin-bottom: 5px;"> 
+                                                <span style="margin-left: 10px;"><strong>Account</strong></span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">
+                                                <img src="person-add.svg" style="width: 16; height: 25; margin-bottom: 5px;"> 
+                                                <span style="margin-left: 10px;"><strong>Sign up</strong></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">   
+                            <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                <span class="navbar-toggler-icon mt-2">
+                                    <img src="book.svg" style="height: 25px; width: 25px;margin-top:-2em;">
+                                </span>
+                            </button>
+                            <div style="height: 50%; background-color: rgb(255, 255, 255);" class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                                <div class="offcanvas-header">
+                                  <h5 class="offcanvas-title" id="offcanvasTopLabel" style="margin-left: 30rem; color: #f90;">Product Category</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div class="row" style="margin-left: 30rem;">
+                                        <div class="col-4">
+                                            <a class="btn" style="border: none;" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                <p class="fw-light" style="color: #f90;">Foreign Books</p>
+                                                <ul class="navbar-nav" style="margin-top: -2rem; color: #f90;">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" aria-current="page" href="#">
+                                                            <h5>
+                                                                <strong>Children's Books</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" aria-current="page" href="#">
+                                                            <h5>
+                                                                <strong>Dictionaries & Languages</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" aria-current="page" href="#">
+                                                            <h5>
+                                                                <strong>Fiction</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" aria-current="page" href="#">
+                                                            <h5>
+                                                                <strong>Business, Finance & Management</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" aria-current="page" href="#">
+                                                            <h5>
+                                                                <strong>Society & Social Sciences</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" aria-current="page" href="#">
+                                                            <h5>
+                                                                <strong>Science & Geography</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </a>
+                                        </div>
+                                        <div class="col-1">
+                                            <div class="d-flex" style="height: 380px; color: #f90;">
+                                                <div class="vr"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <a class="btn" style="border: none;" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                <p class="fw-light" style="color: #f90;">Sách Trong Nước</p>
+                                                <ul class="navbar-nav" style="margin-top: -2rem; color: #f90;">
+                                                    <li class="nar-item">
+                                                        <a href="#" class="nav-link active" aria-current="page">
+                                                            <h5>
+                                                                <strong>Giáo Khoa - Tham Khảo</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nar-item">
+                                                        <a href="#" class="nav-link active" aria-current="page">
+                                                            <h5>
+                                                                <strong>Văn Học</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nar-item">
+                                                        <a href="#" class="nav-link active" aria-current="page">
+                                                            <h5>
+                                                                <strong>Tâm Lý - Kỹ Năng Sống</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nar-item">
+                                                        <a href="#" class="nav-link active" aria-current="page">
+                                                            <h5>
+                                                                <strong>Sách Học Ngoại Ngữ</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nar-item">
+                                                        <a href="#" class="nav-link active" aria-current="page">
+                                                            <h5>
+                                                                <strong>Kinh Tế</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nar-item">
+                                                        <a href="#" class="nav-link active" aria-current="page">
+                                                            <h5>
+                                                                <strong>Khoa Học Kỹ Thuật</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="logo-search" >
+                                <button type="submit" class="btn-search">
+                                    <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #000000;"></i>
+                                </button> 
+                            </a>
+                            <div class="popup">
+                                <input type="search">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+
+        <section class="content" style="background-color:rgb(255, 255, 255);">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-9 py-3">
+                        <div class="row py-2" style="margin-left: 50px; color: white;">
+                            <div class="col">
+                                <a href="#" class="nar-link active">
+                                    <img class="d-block w-50" src="Icon_FlashSale_Hot_8px_1.png">
+                                </a>
+                                <p class="title_icon">flash sale</p>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="nar-link active">
+                                    <img class="d-block w-50" src="Icon_MaGiamGia_8px_1.png">
+                                </a>
+                                <p class="title_icon">discount codes</p>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="nar-link active">
+                                    <img class="d-block w-50" src="Icon_SanPhamMoi_8px_1.png">
+                                </a>
+                                <p class="title_icon">new books</p>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="nar-link active">
+                                    <img class="d-block w-50" src="Icon_Trending_Hot_8px_1.png">
+                                </a>
+                                <p class="title_icon">hot trendings</p>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="nar-link active">
+                                    <img class="d-block w-50" src="Icon_VanHoc_50.png">
+                                </a>
+                                <p class="title_icon">best sellers</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner mt-2" style="border-radius: 10px;">
+                                <div class="carousel-item active">
+                                    <a href="#" class="nar-link active">
+                                        <img src="FahasaT3_T323_Banner_840x320.jpg" class="d-block w-100" alt="...">
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#" class="nar-link active">
+                                        <img src="AZT03_slide_840x320.jpg" class="d-block w-100" alt="...">
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#" class="nar-link active">
+                                        <img src="VNPAYT323_840x320_fhs.jpg" class="d-block w-100" alt="...">
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#" class="nar-link active">
+                                        <img src="PNJT3_840x320.png" class="d-block w-100" alt="...">
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#" class="nar-link active">
+                                        <img src="GHN840x320.png" class="d-block w-100" alt="...">
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#" class="nar-link active">
+                                        <img src="ninjavan840x320.png" class="d-block w-100" alt="...">
+                                    </a>
+                                </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true">
+                                </span>
+                                <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col-3">
+                        <div class="row-3">
+                            <div id="carouselExampleFade" class="carousel slide carousel-fade mx-1 mt-3 mb-3">
+                                <div class="carousel-inner" style="border-radius: 10px; ">
+                                  <div class="carousel-item active">
+                                    <span class="flashsale-tag">
+                                        <img src="ico_flashsale@3x.png" style="height: 20px; width: 20px;">
+                                        FLASH SALE
+                                    </span>
+                                    <a href="#" class="nav-link active">
+                                        <img src="8936071674135_2_1.jpg" class="d-block w-100" alt="Phía Tây Không Có Gì Lạ">
+                                    </a>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <span class="flashsale-tag">
+                                        <img src="ico_flashsale@3x.png" style="height: 20px; width: 20px;">
+                                        FLASH SALE
+                                    </span>
+                                    <a href="#" class="nav-link active">
+                                        <img src="chayboharuki.jpg" class="d-block w-100" alt="Phía Tây Không Có Gì Lạ">
+                                    </a>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <span class="flashsale-tag">
+                                        <img src="ico_flashsale@3x.png" style="height: 20px; width: 20px;">
+                                        FLASH SALE
+                                    </span>
+                                    <a href="#" class="nav-link active">
+                                        <img src="dechquantam.jpg" class="d-block w-100" alt="Phía Tây Không Có Gì Lạ">
+                                    </a>
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col px-1">
+                        <a href="#" class="nav-link active">
+                            <img src="FahasaT3_T323_Bộ3_310x210.jpg" alt="" style="border-radius: 5px;">
+                        </a>
+                    </div>
+                    <div class="col px-1">
+                        <a href="#" class="nav-link active">
+                            <img src="McBooksT3_310x210.jpg" alt="" style="border-radius: 5px;">
+                        </a>
+                    </div>
+                    <div class="col px-1">
+                        <a href="#" class="nav-link active">
+                            <img src="ncc_silver_minhlong_310x210 (1).jpg" alt="" style="border-radius: 5px;">
+                        </a>
+                    </div>
+                    <div class="col px-1">
+                        <a href="#" class="nav-link active">
+                            <img src="ncc_gold_alphabooks_310x210.jpg" alt="" style="border-radius: 5px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="product"> 
+                <h2 class="product-category">best selling</h2>
+                <div class="product-container">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="discount-tag">50% off</span>
+                            <img src="menwithoutwoman.jpg" class="product-thumb" alt="">
+                            <button class="card-btn">add to wishlist</button>
+                        </div>
+                        <div class="product-info">
+                            <h6 class="product-name">Men Without Women</h6>
+                            <p class="product-author">Haruki Murakami</p>
+                            <span class="price">$8.5</span><span class="actual-price">$17</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="discount-tag">50% off</span>
+                            <img src="godfather.jpg" class="product-thumb" alt="">
+                            <button class="card-btn">add to wishlist</button>
+                        </div>
+                        <div class="product-info">
+                            <h6 class="product-name">The Godfather: 50th Anniversary Edition</h6>
+                            <p class="product-author">Mario Puzo</p>
+                            <span class="price">$25</span><span class="actual-price">$50</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="discount-tag">50% off</span>
+                            <img src="les.jpg" class="product-thumb" alt="">
+                            <button class="card-btn">add to wishlist</button>
+                        </div>
+                        <div class="product-info">
+                            <h6 class="product-name">Les Miserables</h6>
+                            <p class="product-author">Victor Hugo</p>
+                            <span class="price">$25</span><span class="actual-price">$50</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="discount-tag">50% off</span>
+                            <img src="battredongxanh.jpg" class="product-thumb" alt="">
+                            <button class="card-btn">add to wishlist</button>
+                        </div>
+                        <div class="product-info">
+                            <h6 class="product-name">The Catcher in the Rye</h6>
+                            <p class="product-author">J. D. Salinger</p>
+                            <span class="price">$25</span><span class="actual-price">$50</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="discount-tag">50% off</span>
+                            <img src="models.jpg" class="product-thumb" alt="">
+                            <button class="card-btn">add to wishlist</button>
+                        </div>
+                        <div class="product-info">
+                            <h6 class="product-name">TModels: Attract Women Through Honesty</h6>
+                            <p class="product-author">Mark Manson</p>
+                            <span class="price">$25</span><span class="actual-price">$50</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav aria-label="Page navigation example" style="margin-left: 45rem; padding: 30px 0 30px 0;">
+                <ul class="pagination" style="gap: 10px;">
+                  <li class="pageTrans"><a class="pageLink" href="#"><b>Prev</b></a></li>
+                  <li class="pageNumber"><a class="pageLink" href="#">1</a></li>
+                  <li class="pageNumber"><a class="pageLink" href="#">2</a></li>
+                  <li class="pageNumber"><a class="pageLink" href="#">3</a></li>
+                  <li class="pageTrans"><a class="pageLink" href="#"><b>Next</b></a></li>
+                </ul>
+            </nav>
+            <div class="row" style="width: 100%; height: 50vh;  text-align: center;">
+                <h1 style="position: absolute;margin-top: 5em; color: #f90; text-shadow: 3px 2px rgb(255, 255, 255);"><strong>“Not All Readers Are Leaders, <br> But All Leaders Are Readers”</strong></h1>
+                <div class="col" style=" background-image:linear-gradient(rgba(0, 0, 0, 0.25), rgb(0, 0, 0, 1)),url(sapiens.jpg); background-size:contain; background-position: center; background-repeat: no-repeat;">
+                    
+                </div>
+                <div class="col" style=" background-image:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)),url(nobody.webp); background-size:contain; background-position: center; background-repeat: no-repeat;">
+
+                </div>
+                <div class="col" style="background-image:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)),url(whywesleep.jpg); background-size:contain; background-position: center; background-repeat: no-repeat;">
+
+                </div>
+                <div class="col" style="background-image:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)),url(notsomart.jpg); background-size:contain; background-position: center; background-repeat: no-repeat;">
+
+                </div>
+                <div class="col" style="background-image:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)),url(tomsawyer.jpg); background-size:contain; background-position: center; background-repeat: no-repeat;">
+
+                </div>
+                <div class="col" style="background-image:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)),url(nhagiakim.jpg); background-size:contain; background-position: center; background-repeat: no-repeat;">
+
+                </div>
+                <div class="buttonBuy">
+                    <a href="#"><button >SHOP NOW</button></a>
+                </div>
+            </div>
+            
+        </section>
+        <section class="footer" style="background-color: #ffffff;">
+            <div class="row py-3" id="row1">
+                <div class="col-2 py-3">
+                    <h3><strong id="title-list">BOOK ESPRESSO</strong></h3>
+                    <ul class="list-footer">
+                        <li class="nav-item"><a class="nav-link active" href="#">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Terms of Service</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Returns</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Order Tracking</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">F.A.Q</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Privacy Policy</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Cookie Permissions</a></li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <div class="row py-1">
+                        <div class="col-5">
+                            <h4>Follow us</h4>
+                        </div>
+                        <div class="col-2">
+                            <a href="https://www.facebook.com/khang.vi.2805">
+                                <i class="fa-brands fa-twitter fa-2xl" id="logo-twitter" style="color: #1d9bf0;"></i>
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a href="https://www.facebook.com/profile.php?id=100027472594542">
+                                <i class="fa-brands fa-facebook fa-2xl" style="color: #1b74e4;"></i>
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a href="https://discord.gg/BKztMSbV">
+                                <i class="fa-brands fa-discord fa-2xl" style="color: #5865f2;"></i>
+                            </a>
+                        </div> 
+                    </div>
+                    <div class="row py-2">
+                        <h4>Payments Accepted</h4>
+                    </div>
+                    <div class="row">
+                        <img src="PaymentsAccepted.webp">
+                    </div> 
+                </div>
+                <div class="col-2">
+                    <a href="https://hufi.edu.vn/">
+                        <img src="hufi.png" alt="HCMC University of Food Industry">
+                    </a>
+                </div>
+            </div>
+            <div class="row" id="copyright-footer">
+                <p style="margin-left: 20em; color: hsla(0,0%,100%,.5);">Copyright 2023 © <strong style=" color: hsla(0,0%,100%,.5);">BookEspresso.com</strong></p>                 
+            </div>
+        </section>
+    </div>
+</body>
+</html>

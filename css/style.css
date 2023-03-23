@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,500;1,400&display=swap');   
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .flashsale-tag {
+        position: absolute;
+        background: #f90;
+        padding: 5px;
+        border-radius: 5px;
+        color: #000000;
+        right: 10px;
+        top: 10px;
+        text-transform: capitalize;
+        }
+        .product {
+        position: relative;
+        overflow: hidden;
+        padding: 20px;
+        }
+
+        .product-category {
+        padding: 0 10vw;
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 40px;
+        text-transform: capitalize;
+        color: white;
+
+        }
+
+        .product-container {
+        padding: 0 10vw;
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        margin-left: 35px;
+        }
+
+        .product-container::-webkit-scrollbar {
+        display: none;
+        }
+
+        .product-card {
+        flex: 0 0 auto;
+        width: 250px;
+        height: 470px;
+        margin-right: 40px;
+        box-shadow: 5px -5px 20px rgba(0, 0, 0, 0.3);
+        transition: 0.5s;
+        }
+
+        .product-image {
+        position: relative;
+        width: 100%;
+        height: 350px;
+        overflow: hidden;
+
+        }
+
+        .product-thumb {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        }
+
+        .discount-tag {
+        position: absolute;
+        background: #f90;
+        padding: 5px;
+        border-radius: 5px;
+        color: #0e0d0d;
+        right: 10px;
+        top: 10px;
+        text-transform: capitalize;
+ 
+
+        }
+
+        .card-btn {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 10px;
+        width: 90%;
+        text-transform: capitalize;
+        border: none;
+        outline: none;
+        background: #f90;
+        border-radius: 5px;
+        transition: 0.5s;
+        cursor: pointer;
+        opacity: 0;
+   
+
+        }
+
+        .product-card:hover .card-btn {
+        opacity: 1;
+        }
+        .product-card:hover{
+            width: 290px;
+        }
+        .card-btn:hover {
+        background: #f90;
+        color: #fff;
+        }
+
+        .product-info {
+        width: 100%;
+        height: 100px;
+        padding-top: 10px;
+        padding-left: 5px;
+        }
+        .product-name {
+        text-transform: capitalize;
+        color: rgb(0, 0, 0);
+
+        }
+        .product-author {
+        font-size: smaller;
+        width: 100%;
+        height: 20px;
+        line-height: 20px;
+        overflow: hidden;
+        opacity: 0.5;
+        text-transform: capitalize;
+        margin: 5px 0;
+        color: rgb(68, 67, 67);   
+        }
+        .price {
+        font-weight: 900;
+        font-size: 20px;
+        color: #f90;
+
+        }
+        .actual-price {
+        margin-left: 20px;
+        opacity: 0.5;
+        text-decoration: line-through;
+        color: rgb(68, 68, 68);   
+
+        
+        }
+        .title_icon{
+            position: relative;
+            top:10px;
+            right:40px;
+            text-transform: capitalize;
+            
+        }
+        body{
+            font-family: 'Roboto Mono', monospace;
+            display: block;
+        }
+        .pageLink{
+            text-decoration-line: none;
+
+        }
+      
+        .pageTrans a{
+         color: #000;
+            
+            background-color: #f90;
+            border-radius: 3px;
+            padding: 20px 35px 20px 35px;
+            font-size: 20px
+        }
+        .pageNumber a{
+            color: #c6c6c6;
+            border-radius: 3px;
+            padding: 20px 25px 20px 25px;
+            background: #151515;
+            font-size: 20px;
+        }
+        .buttonBuy {
+            position: absolute;
+        }
+        .buttonBuy button{
+            margin-top: 20em;
+            background-color: #FF9900;
+            border-color:#FF9900 ;
+            font-weight: bold;
+            color: #fff;
+            height: 43px;
+            width: 143px;
+            transition: 0.2s;
+        }
+        .buttonBuy button:hover{
+            height: 53px;
+            width: 153px;
+            background-color: #fff;
+            color: #FF9900;
+            border-color: #fff;
+        }
+        .list-footer{
+            list-style: none;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 2.25;
+            color: #000;
+        }
+        .list-footer li :hover{
+            color: #FF9900;
+            text-decoration-line:underline;   
+        }
+        .footer strong{
+            color: #000000;
+        }
+        .footer #row1{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #title-list{
+            margin-left: 30px;
+        }
+        #copyright-footer{
+            background-color: #5b5b5b;
+            padding: 30px 0 15px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .btn-search{
+            border: none;
+            background-color: #FFF;
+        }
+        .popup input{
+            width: 600px;
+            height: 65px;
+            padding: 0 0 .75em;
+            background-color: rgba(0,0,0,.03);
+            border-color: rgba(0,0,0,.09);
+            border-radius: 99px;
+            box-shadow: none;
+            font-size: .97em;
+            color: #fff;
+            position: absolute;
+            top:15em;
+            left:-23em;
+            transform:translate(-50%,-50%);
+        }
