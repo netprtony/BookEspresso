@@ -222,22 +222,16 @@
             display: flex;
             flex-wrap: wrap;
         }
-        .btn-search{
-            border: none;
-            background-color: #FFF;
+        
+        .bar-search{
+            display: flex;
+            height: 50px;
+            width: 37em;
+            border-radius: 10px;
+            color: rgb(129, 129, 129);
+            border: 2px solid #000000;
+            transition: 0.2s;
         }
-        .popup input{
-            width: 600px;
-            height: 65px;
-            padding: 0 0 .75em;
-            background-color: rgba(0,0,0,.03);
-            border-color: rgba(0,0,0,.09);
-            border-radius: 99px;
-            box-shadow: none;
-            font-size: .97em;
-            color: #fff;
-            position: absolute;
-            top:15em;
-            left:-23em;
-            transform:translate(-50%,-50%);
+        .bar-search:hover{
+            width: 43em;
         }
