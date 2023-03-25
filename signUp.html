@@ -214,15 +214,51 @@
     <section class="content" style="background-color:#e8e8e8;">
         <div class="container text-center">
             <div class="col" style="background-color: #ffffff;">
-                <p>Đăng Nhập</p>
-                <p>Số điện thoại/Email</p>
-                <input type="text" placeholder="Nhập số điện thoại hoặc Email" style="width: 200px;">
-                <p>Mật khẩu</p>
-                <input type="password" placeholder="Nhập mật khẩu " required style="width: 200px;">
-                <span class="show-btn"><i class="fas fa-eye"></i></span> <br>
-                <a href="#" style="margin-left: 100px;">Quên mật khẩu?</a> <br> <br>
-                <input type="submit" value="Đăng nhập" style="width: 200px;"> <br> <br>
-                <input type="submit" value="Đăng nhập bằng facebook" style="background-color: blue; color: #ffffff; width: 200px;">
+                <div class="row-1">
+                    <p class="btn-lo-si">
+                        <button class="btn px-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLogin" aria-expanded="true" aria-controls="collapseWidthExample">
+                            <p>Login</p>
+                        </button>
+                        <button class="btn px-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSignUp" aria-expanded="true" aria-controls="collapseWidthExample">
+                           <p>Sign Up</p>
+                        </button>
+                    </p>
+                </div>
+                <div class="row">
+                    <div style="min-height: 120px; margin-left: 26em; padding-bottom: 10px;">
+                        <div class="collapse collapse-horizontal" id="collapseLogin">
+                            <div class="card card-body" style="width: 500px; border:2px solid #f90;">
+                                <h6 style="text-align: left;">Phone number/Email</h6>
+                                <input type="text" name="enterEmail" id="email" placeholder="Enter phone number or email"><br>
+                                <h6 style="text-align: left;">Password</h6>
+                                <input type="password" name="enterPassword" id="password" placeholder="Enter password">
+                                <p style="text-align: right; color: #f90; padding: 10px;">
+                                    <a class="nav-link active" href="#">Forgot Your Password?</a>
+                                </p>
+                                <div style="display: flex; flex-direction: column; gap:10px; border-radius: 5px; color: white; font-weight: 700;">
+                                    <div style="padding-top: 10px;">
+                                        <a style="color:#545759 ; background-color: #f6f3f3; border: none;" class="btn disabled w-50" role="button" aria-disabled="true">Login</a>
+                                    </div>
+                                    <div >
+                                        <a href="https://www.facebook.com/" class="btn btn-primary w-50" role="button">Login with facebook</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="min-height: 120px; margin-left: 26em; margin-bottom: 10em;">
+                        <div class="collapse collapse-horizontal" id="collapseSignUp">
+                          <div class="card card-body" style="width: 500px; border:2px solid #f90;">
+                            <h6 style="text-align: left;">Phone number</h6>
+                            <input type="text" placeholder="Enter phone number or email"><br>
+                            <h6 style="text-align: left;">Confirm OTP code</h6>
+                            <input type="number"  placeholder="6 characters"><br>
+                            <h6 style="text-align: left;">Password</h6>
+                            <input type="password" placeholder="Enter password"><br>
+                          </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

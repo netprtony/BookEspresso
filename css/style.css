@@ -235,3 +235,19 @@
         .bar-search:hover{
             width: 43em;
         }
+        .btn-lo-si button{
+            border-radius: 0px;
+            width: 200px;
+            border-top: none;
+            border-left: none;
+            border-right:  none;
+        }
+        
+        .btn-lo-si button:hover{
+            border-bottom: 4px solid #f90;
+        }
+        #collapseLogin input{
+            height: 37px;
+            border: none;
+            border-bottom: 1px solid black;
+        }
