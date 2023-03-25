@@ -12,11 +12,284 @@
 
 </head>
 <body>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <section class="header" style="background-color: #f90; color: #fff; height: 30px; ">
+            <strong style="text-align: center; display: block; font-size: .75em; padding: 5px;">FREE Shipping on VN orders of 1.000.000 VND</strong>
+    </section>
+    <div class="container"> 
+        <section class="menu py-3">
+            <div class="row mx-3">
+                <div class="col-2 my-1 px-5">
+                    <a class="navbar-brand" href="#">
+                        <img src="book.png" alt="book espresso" width="120" height="120">
+                    </a>
+                </div>
+                <div class="col-4 " style="margin-top: 2.25em;">
+                    <input type="text" class="bar-search" placeholder="Search...">
+                </div>
+                <div class="col-5 py-5">
+                    <div class="row" style="margin-left: 100px; position: relative; flex-direction:row-reverse;">
+                        <div class="col-3">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                                <span class="navbar-toggler-icon mt-3">
+                                    <img src="archive.svg" style="height: 25px; width: 25px; margin-top:-1.75em;">
+                                </span>
+                            </button>
+                            <div style="height: 25rem; background-color: rgb(255, 255, 255);" class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                                <div class="offcanvas-header">
+                                    <h3 class="offcan   vas-title mt-4" id="offcanvasDarkNavbarLabel" style="margin-left: 30rem; color: #f90;">Your Bag is emmty.</h3>
+                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body" style="margin-left: 30rem; color: #f90;">
+                                    <p class="fw-light" style="color: #f90;">
+                                        <a href="#" style="text-decoration: none;"><b>Sign up</b></a> to see if you have any save items
+                                    </p>
+                                     
+                                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">
+                                                <img src="gift.svg" style="width: 16; height: 25; margin-bottom: 5px; color: #f90;"> 
+                                                <span style="margin-left: 10px;"><strong>Your gift</strong></span>
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page" href="#">
+                                                <img src="inbox.svg" style="width: 16; height: 25; margin-bottom: 5px;"> 
+                                                <span style="margin-left: 10px;"><strong>Order</strong></span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">
+                                                <img src="pin.svg" style="width: 16; height: 25; margin-bottom: 5px;"> 
+                                                <span style="margin-left: 10px;"><strong>Your saves</strong></span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">
+                                                <img src="person-fill.svg" style="width: 16; height: 25; margin-bottom: 5px;"> 
+                                                <span style="margin-left: 10px;"><strong>Account</strong></span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">
+                                                <img src="person-add.svg" style="width: 16; height: 25; margin-bottom: 5px;"> 
+                                                <span style="margin-left: 10px;"><strong>Sign up</strong></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">   
+                            <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                <span class="navbar-toggler-icon mt-2">
+                                    <img src="book.svg" style="height: 25px; width: 25px;margin-top:-2em;">
+                                </span>
+                            </button>
+                            <div style="height: 50%; background-color: rgb(255, 255, 255);" class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                                <div class="offcanvas-header">
+                                  <h5 class="offcanvas-title" id="offcanvasTopLabel" style="margin-left: 30rem; color: #f90;">Product Category</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div class="row" style="margin-left: 30rem;">
+                                        <div class="col-4">
+                                            <a class="btn" style="border: none;" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                <p class="fw-light" style="color: #f90;">Foreign Books</p>
+                                                <ul class="navbar-nav" style="margin-top: -2rem; color: #f90;">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" aria-current="page" href="#">
+                                                            <h5>
+                                                                <strong>Children's Books</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" aria-current="page" href="#">
+                                                            <h5>
+                                                                <strong>Dictionaries & Languages</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" aria-current="page" href="#">
+                                                            <h5>
+                                                                <strong>Fiction</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" aria-current="page" href="#">
+                                                            <h5>
+                                                                <strong>Business, Finance & Management</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" aria-current="page" href="#">
+                                                            <h5>
+                                                                <strong>Society & Social Sciences</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" aria-current="page" href="#">
+                                                            <h5>
+                                                                <strong>Science & Geography</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </a>
+                                        </div>
+                                        <div class="col-1">
+                                            <div class="d-flex" style="height: 380px; color: #f90;">
+                                                <div class="vr"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <a class="btn" style="border: none;" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                <p class="fw-light" style="color: #f90;">Sách Trong Nước</p>
+                                                <ul class="navbar-nav" style="margin-top: -2rem; color: #f90;">
+                                                    <li class="nar-item">
+                                                        <a href="#" class="nav-link active" aria-current="page">
+                                                            <h5>
+                                                                <strong>Giáo Khoa - Tham Khảo</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nar-item">
+                                                        <a href="#" class="nav-link active" aria-current="page">
+                                                            <h5>
+                                                                <strong>Văn Học</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nar-item">
+                                                        <a href="#" class="nav-link active" aria-current="page">
+                                                            <h5>
+                                                                <strong>Tâm Lý - Kỹ Năng Sống</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nar-item">
+                                                        <a href="#" class="nav-link active" aria-current="page">
+                                                            <h5>
+                                                                <strong>Sách Học Ngoại Ngữ</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nar-item">
+                                                        <a href="#" class="nav-link active" aria-current="page">
+                                                            <h5>
+                                                                <strong>Kinh Tế</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nar-item">
+                                                        <a href="#" class="nav-link active" aria-current="page">
+                                                            <h5>
+                                                                <strong>Khoa Học Kỹ Thuật</strong>
+                                                            </h5>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="logo-search" >
+                                <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #000000;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
     <section class="content" style="background-color:#e8e8e8;">
         <div class="container text-center">
             <div class="col" style="background-color: #ffffff;">
-                <!-- form đăng nhập -->
+                <p>Đăng Nhập</p>
+                <p>Số điện thoại/Email</p>
+                <input type="text" placeholder="Nhập số điện thoại hoặc Email" style="width: 200px;">
+                <p>Mật khẩu</p>
+                <input type="password" placeholder="Nhập mật khẩu " required style="width: 200px;">
+                <span class="show-btn"><i class="fas fa-eye"></i></span> <br>
+                <a href="#" style="margin-left: 100px;">Quên mật khẩu?</a> <br> <br>
+                <input type="submit" value="Đăng nhập" style="width: 200px;"> <br> <br>
+                <input type="submit" value="Đăng nhập bằng facebook" style="background-color: blue; color: #ffffff; width: 200px;">
             </div>
+        </div>
+    </section>
+    <section class="footer" style="background-color: #ffffff;">
+        <div class="row py-3" id="row1">
+            <div class="col-2 py-3">
+                <h3><strong id="title-list">BOOK ESPRESSO</strong></h3>
+                <ul class="list-footer">
+                    <li class="nav-item"><a class="nav-link active" href="#">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Terms of Service</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Returns</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Order Tracking</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">F.A.Q</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Privacy Policy</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Cookie Permissions</a></li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <div class="row py-1">
+                    <div class="col-5">
+                        <h4>Follow us:</h4>
+                    </div>
+                </div>
+                <div class="row" id="brand">
+                    <div class="col-2">
+                        <a href="https://www.facebook.com/khang.vi.2805">
+                            <i class="fa-brands fa-twitter fa-2xl" id="logo-brand" style="color: #24292f;"></i>
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <a href="https://www.facebook.com/profile.php?id=100027472594542">
+                            <i class="fa-brands fa-facebook fa-2xl" id="logo-brand" style="color: #24292f;"></i>
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <a href="https://discord.gg/BKztMSbV">
+                            <i class="fa-brands fa-discord fa-2xl" id="logo-brand" style="color: #24292f;"></i>
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <a href="https://github.com/netprtony">
+                            <i class="fa-brands fa-github fa-2xl" id="logo-brand" style="margin-left: 5px; color: #24292f;" ></i>
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <a href="https://www.tiktok.com/@khang.six">
+                            <i class="fa-brands fa-tiktok fa-2xl" id="logo-brand" style="color: #24292f;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row py-2">
+                    <h4>Payments Accepted</h4>
+                </div>
+                <div class="row">
+                    <img src="PaymentsAccepted.webp">
+                </div> 
+            </div>
+            <div class="col-2">
+                <a href="https://hufi.edu.vn/">
+                    <img src="hufi.png" alt="HCMC University of Food Industry">
+                </a>
+            </div>
+            
+        </div>
+        <div class="row" id="copyright-footer">
+            <p style="margin-left: 20em; color: hsla(0,0%,100%,.5);">Copyright 2023 © <strong style=" color: hsla(0,0%,100%,.5);">BookEspresso.com</strong></p>                 
         </div>
     </section>
 </body>
