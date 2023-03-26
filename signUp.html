@@ -42,7 +42,7 @@
                                 </div>
                                 <div class="offcanvas-body" style="margin-left: 30rem; color: #f90;">
                                     <p class="fw-light" style="color: #f90;">
-                                        <a href="#" style="text-decoration: none;"><b>Sign up</b></a> to see if you have any save items
+                                        <a href="signUp.html" style="text-decoration: none;"><b>Sign up</b></a> to see if you have any save items
                                     </p>
                                      
                                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -212,8 +212,8 @@
     </div>
     </section>
     <section class="content" style="background-color:#e8e8e8;">
-        <div class="container text-center">
-            <div class="col" style="background-color: #ffffff;">
+        <div class="container text-center py-3">
+            <div class="col" style="background-color: #ffffff; border-radius: 5px;">
                 <div class="row-1">
                     <p class="btn-lo-si">
                         <button class="btn px-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLogin" aria-expanded="true" aria-controls="collapseWidthExample">
@@ -224,7 +224,7 @@
                         </button>
                     </p>
                 </div>
-                <div class="row">
+                <div class="row" style="width: 200px;">
                     <div style="min-height: 120px; margin-left: 26em; padding-bottom: 10px;">
                         <div class="collapse collapse-horizontal" id="collapseLogin">
                             <div class="card card-body" style="width: 500px; border:2px solid #f90;">
@@ -232,12 +232,12 @@
                                 <input type="text" name="enterEmail" id="email" placeholder="Enter phone number or email"><br>
                                 <h6 style="text-align: left;">Password</h6>
                                 <input type="password" name="enterPassword" id="password" placeholder="Enter password">
-                                <p style="text-align: right; color: #f90; padding: 10px;">
+                                <p style="text-align: right; color: rgb(209, 72, 72); padding: 10px;font-weight: 700;">
                                     <a class="nav-link active" href="#">Forgot Your Password?</a>
                                 </p>
                                 <div style="display: flex; flex-direction: column; gap:10px; border-radius: 5px; color: white; font-weight: 700;">
                                     <div style="padding-top: 10px;">
-                                        <a style="color:#545759 ; background-color: #f6f3f3; border: none;" class="btn disabled w-50" role="button" aria-disabled="true">Login</a>
+                                        <a style="color:#545759 ; background-color: #f6f3f3; font-weight: 700; border: none;" class="btn disabled w-50" role="button" aria-disabled="true">Login</a>
                                     </div>
                                     <div >
                                         <a href="https://www.facebook.com/" class="btn btn-primary w-50" role="button">Login with facebook</a>
@@ -255,6 +255,7 @@
                             <input type="number"  placeholder="6 characters"><br>
                             <h6 style="text-align: left;">Password</h6>
                             <input type="password" placeholder="Enter password"><br>
+                            <a style="color:#545759 ; background-color: #f6f3f3; font-weight: 700; border: none; margin-left: 7em;" class="btn w-50" role="button" aria-disabled="true">Sign Up</a>
                           </div>
                         </div>
                     </div>
@@ -315,17 +316,46 @@
                 </div>
                 <div class="row">
                     <img src="PaymentsAccepted.webp">
+                </div>
+                <div class="row py-2" id="app">
+                    <h4>APP</h4>
+                    <a href="#" class="nav-link active" >
+                        <img src="android1.png" alt="BookEspresso">
+                    </a>
+                    <a href="#" class="nav-link active">
+                        <img src="appstore1.png" alt="BookEspresso">
+                    </a>
                 </div> 
             </div>
-            <div class="col-2">
-                <a href="https://hufi.edu.vn/">
-                    <img src="hufi.png" alt="HCMC University of Food Industry">
-                </a>
+            <div class="col-2" style="width:fit-content;">
+                <div class="row">
+                    <a href="https://hufi.edu.vn/">
+                        <img src="hufi.png" alt="HCMC University of Food Industry">
+                    </a>
+                </div>
+                <div class="row py-3">
+                    <h4>CONTACT</h4>
+                </div>
+                <div class="row">
+                    <ul class="navbar-nav px-3">
+                        <li class="nav-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            140 Le Trong Tan, Tay Thanh Ward, Tan Phu District, HCMC
+                        </li>
+                        <li class="nav-item">
+                            <i class="fa-sharp fa-solid fa-envelope"></i>
+                            cskh@bookespresso.com
+                        </li>
+                        <li class="nav-item">
+                            <i class="fa-solid fa-phone"></i>
+                            0767487840
+                        </li>
+                    </ul>
+                </div>
             </div>
-            
         </div>
         <div class="row" id="copyright-footer">
-            <p style="margin-left: 20em; color: hsla(0,0%,100%,.5);">Copyright 2023 © <strong style=" color: hsla(0,0%,100%,.5);">BookEspresso.com</strong></p>                 
+            <p style="margin-left: 20em; color: hsla(0,0%,100%,.5); width: auto;">Copyright 2023 © <strong style=" color: hsla(0,0%,100%,.5);">BookEspresso.com</strong></p>                 
         </div>
     </section>
 </body>
