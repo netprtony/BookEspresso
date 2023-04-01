@@ -4,3 +4,4 @@ function changeImg(smallImg){
     fullImg.style.width = "auto";
     fullImg.style.height = "500px";
 }
+

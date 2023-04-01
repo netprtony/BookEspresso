@@ -312,5 +312,8 @@
         #imgBox{
             box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
         }
+        #delivery{
+            font-weight: 200;
+        }
         
 
