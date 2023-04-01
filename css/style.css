@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,500;1,400&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@600&family=Roboto+Mono:wght@500&family=Roboto+Slab:wght@300;400&display=swap');
     *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: 'Overpass Mono', monospace;
+        font-family: 'Roboto Mono', monospace;
+        font-family: 'Roboto Slab', serif;
     }
     .flashsale-tag {
         position: absolute;
@@ -275,3 +278,39 @@
             font-weight: 700;
             margin-top: 1em;
         }
+        #format button{
+            width: 150px;
+            border-radius: 5px ; 
+            color: #24292f;
+            border: 1px solid #d6d6d6;
+            text-align: left;
+        }
+        #button-buy  button{
+            width: 200px;
+            border-radius: 99px;
+        }
+        #button-buy  button :nth-child(:first-child){
+            border: 1px solid #f90;
+        }
+        .img-small img{
+            height: 120px;
+            width: auto;
+            padding: 10px;
+            cursor: pointer;
+            opacity: .6;
+            float:left;
+            display: block;
+
+        }
+        .img-small img:hover{
+            opacity: 1;
+        }
+        .img-main{
+            width: auto;
+            height: 500px;
+        }
+        #imgBox{
+            box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+

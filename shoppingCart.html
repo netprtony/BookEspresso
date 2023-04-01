@@ -4,51 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fahasa</title>
+    <title>Shop Official BookEspresso | BookEspresso.com </title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="shortcut icon" href="favicon4.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="book.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body id="blur" class="container-fluid">
     <script src="js/bootstrap.bundle.min.js"></script>
-    <div class="container">
-        <section class="header" style="background-color: aqua;">
-            <img src="FahasaT3_T323_Banner_1263x60.jpg" class="img-xxl" style="margin-left: 0.7777rem;">
-        </section>
+    <script src="js/script.js"></script>
+    <section class="header" style="background-color: #f90; color: #fff; height: 30px; ">
+            <strong style="text-align: center; display: block; font-size: .75em; padding: 5px;">FREE Shipping on VN orders of 1.000.000 VND</strong>
+    </section>
 
-        <section class="menu py-3">
+    <section class="container" id="blur"> 
+        <div class="menu py-3">
             <div class="row mx-3">
-                <div class="col my-1">
+                <div class="col-2 my-1 px-5">
                     <a class="navbar-brand" href="#">
-                        <img src="fahasa_logo.png" alt="fahasa">
+                        <img src="book.png" alt="book espresso" width="120" height="120">
                     </a>
                 </div>
-                <div class="col">
-                    <div class="input-group" style="width: 40rem;">
-                        <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                        <span class="input-group-text btn-danger" id="basic-addon2">
-                            <button type="button" class="btn">
-                                <img src="search.svg" alt="">
-                            </button>
-                        </span>
-                    </div>
+                <div class="col-4 " style="margin-top: 2.25em;">
+                    <input type="text" class="bar-search" placeholder="Search...">
                 </div>
-                <div class="col">
-                    <div class="row" style="margin-left: 10px;">
+                <div class="col-5 py-5">
+                    <div class="row" style="margin-left: 100px; position: relative; flex-direction:row-reverse;">
                         <div class="col-3">
                             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                                 <span class="navbar-toggler-icon mt-3">
-                                    <img src="archive.svg" style="height: 25px; width: 25px;">
+                                    <img src="archive.svg" style="height: 25px; width: 25px; margin-top:-1.75em;">
                                 </span>
                             </button>
-                            <div style="height: 25rem; background-color: rgb(129, 129, 129);" class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                            <div style="height: 25rem; background-color: rgb(255, 255, 255);" class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                                 <div class="offcanvas-header">
                                     <h3 class="offcan   vas-title mt-4" id="offcanvasDarkNavbarLabel" style="margin-left: 30rem; color: #f90;">Your Bag is emmty.</h3>
                                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body" style="margin-left: 30rem; color: #f90;">
                                     <p class="fw-light" style="color: #f90;">
-                                        <a href="#" style="text-decoration: none;"><b>Sign up</b></a> to see if you have any save items
+                                        <a href="signUp.html" style="text-decoration: none;"><b>Sign up</b></a> to see if you have any save items
                                     </p>
                                      
                                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -78,7 +73,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">
+                                            <a class="nav-link" href="signUp.html">
                                                 <img src="person-add.svg" style="width: 16; height: 25; margin-bottom: 5px;"> 
                                                 <span style="margin-left: 10px;"><strong>Sign up</strong></span>
                                             </a>
@@ -90,10 +85,10 @@
                         <div class="col-3">   
                             <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
                                 <span class="navbar-toggler-icon mt-2">
-                                    <img src="book.svg" style="height: 25px; width: 25px;">
+                                    <img src="book.svg" style="height: 25px; width: 25px;margin-top:-2em;">
                                 </span>
                             </button>
-                            <div style="height: 50%; background-color: rgb(129, 129, 129);" class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                            <div style="height: 50%; background-color: rgb(255, 255, 255);" class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
                                 <div class="offcanvas-header">
                                   <h5 class="offcanvas-title" id="offcanvasTopLabel" style="margin-left: 30rem; color: #f90;">Product Category</h5>
                                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -165,35 +160,35 @@
                                                             </h5>
                                                         </a>
                                                     </li>
-                                                    <li class="nar-item">
+                                                    <li class="nav-item">
                                                         <a href="#" class="nav-link active" aria-current="page">
                                                             <h5>
                                                                 <strong>Văn Học</strong>
                                                             </h5>
                                                         </a>
                                                     </li>
-                                                    <li class="nar-item">
+                                                    <li class="nav-item">
                                                         <a href="#" class="nav-link active" aria-current="page">
                                                             <h5>
                                                                 <strong>Tâm Lý - Kỹ Năng Sống</strong>
                                                             </h5>
                                                         </a>
                                                     </li>
-                                                    <li class="nar-item">
+                                                    <li class="nav-item">
                                                         <a href="#" class="nav-link active" aria-current="page">
                                                             <h5>
                                                                 <strong>Sách Học Ngoại Ngữ</strong>
                                                             </h5>
                                                         </a>
                                                     </li>
-                                                    <li class="nar-item">
+                                                    <li class="nav-item">
                                                         <a href="#" class="nav-link active" aria-current="page">
                                                             <h5>
                                                                 <strong>Kinh Tế</strong>
                                                             </h5>
                                                         </a>
                                                     </li>
-                                                    <li class="nar-item">
+                                                    <li class="nav-item">
                                                         <a href="#" class="nav-link active" aria-current="page">
                                                             <h5>
                                                                 <strong>Khoa Học Kỹ Thuật</strong>
@@ -202,17 +197,190 @@
                                                     </li>
                                                 </ul>
                                             </a>
-
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="col-3">
+                            <a href="#" class="logo-search" >
+                                <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #000000;"></i>
+                            </a>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-        </section>
+            </div>
+        </div>
+    </section>
 
+    <section class="contect">
+        <div class="container-sm" style="margin: 0 263.5px 0 263.5px; padding: 32px 0 32px 0;">
+            <div class="row" style="display: flex; flex-direction: row; justify-content:space-evenly;">
+                <div class="col-4">
+                    <div class="row">
+                        <div class="col">
+                            <div class="img-small">
+                                <img src="vangogh1.jpg" onclick="changeImg(this)">
+                                <img src="vangogh2.jpg" onclick="changeImg(this)">
+                                <img src="vangogh3.jpg" onclick="changeImg(this)">
+                                <img src="vangogh4.jpg" onclick="changeImg(this)">
+                                <img src="vangogh5.jpg" onclick="changeImg(this)">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="img-main">
+                                <a href="#" onclick="toggleImg()"><img id="imgBox" src="vangogh.jpg"></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <h1 class="h1 mb-2" style="font-weight: 1000;">The Letters of Vincent Van Gogh</h1>
+                    <div class="row">
+                            <p><span><a style="color: #f90; text-decoration: none;" href="#">Vincent Van Gogh</a></span> (Author)</p>
+                    </div> 
+                    <div class="row">
+                        <h6 style="user-select: none;">Format</h6>
+                        <div class="row gap-3" >
+                            <div class="col-3" id="format">
+                                <button class="btn" type="button">
+                                    <h6>Paperback</h6>
+                                    <p style="color:darkgrey;">English</p>
+                                    <h6><span style="text-decoration: line-through; color: #f90;">$19.00</span> $17.67</h6>
+                                </button>
+                            </div>
+                            <div class="col-3" id="format">
+                                <button class="btn" type="button">
+                                    <h6>Hardcover</h6>
+                                    <p style="color:darkgrey;">English</p>
+                                    <h6><span style="text-decoration: line-through; color: #f90;">$22.00</span> $20.67</h6>
+                                </button>
+                            </div>  
+                        </div>
+                        <div class="row py-3">
+                            <h4><span class="badge --bs-body-bg-rgb"><i class="fa-sharp fa-solid fa-circle-check" style="color: #04ff00;"> AVAILABLE</i></span></h4>
+                        </div>
+                        <div class="row">
+                            <a href="#">Delivery to </a>
+                            
+                        </div>
+                        <div class="row">
+                            <div class="d-grid gap-1 d-md-block" id="button-buy">
+                                <button class="btn" type="button" style="background-color: rgb(0, 0, 0); color: #f90;">
+                                    <i class="fa-solid fa-plus fa-xl"></i>
+                                    ADD TO CART
+                                </button>
+                                <button class="btn" type="button" style="background-color: rgb(255, 255, 255); border: 2px solid #f90; color: #f90;">
+                                    <i class="fa-regular fa-bookmark fa-lg" style="color: #f90;"></i>
+                                    ADD TO WISHLIST
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="footer" style="background-color: #ffffff;">
+            <div class="row py-3" id="row1">
+                <div class="col-2 py-3">
+                    <h3><strong id="title-list">BOOK ESPRESSO</strong></h3>
+                    <ul class="list-footer">
+                        <li class="nav-item"><a class="nav-link active" href="#">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Terms of Service</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Returns</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Order Tracking</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">F.A.Q</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Privacy Policy</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Cookie Permissions</a></li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <div class="row py-1">
+                        <div class="col-5">
+                            <h4>Follow us:</h4>
+                        </div>
+                    </div>
+                    <div class="row" id="brand">
+                        <div class="col-2">
+                            <a href="https://www.facebook.com/khang.vi.2805">
+                                <i class="fa-brands fa-twitter fa-2xl" id="logo-brand" style="color: #24292f;"></i>
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a href="https://www.facebook.com/profile.php?id=100027472594542">
+                                <i class="fa-brands fa-facebook fa-2xl" id="logo-brand" style="color: #24292f;"></i>
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a href="https://discord.gg/BKztMSbV">
+                                <i class="fa-brands fa-discord fa-2xl" id="logo-brand" style="color: #24292f;"></i>
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a href="https://github.com/netprtony">
+                                <i class="fa-brands fa-github fa-2xl" id="logo-brand" style="margin-left: 5px; color: #24292f;" ></i>
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a href="https://www.tiktok.com/@khang.six">
+                                <i class="fa-brands fa-tiktok fa-2xl" id="logo-brand" style="color: #24292f;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row py-2">
+                        <h4>Payments Accepted</h4>
+                    </div>
+                    <div class="row">
+                        <img src="PaymentsAccepted.webp">
+                    </div> 
+                    <div class="row py-2" id="app">
+                        <h4>APP</h4>
+                        <a href="#" class="nav-link active" >
+                            <img src="android1.png" alt="BookEspresso">
+                        </a>
+                        <a href="#" class="nav-link active">
+                            <img src="appstore1.png" alt="BookEspresso">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-2" style="width:fit-content;">
+                    <div class="row">
+                        <a href="https://hufi.edu.vn/">
+                            <img src="hufi.png" alt="HCMC University of Food Industry">
+                        </a>
+                    </div>
+                    <div class="row py-3">
+                        <h4>CONTACT</h4>
+                    </div>
+                    <div class="row">
+                        <ul class="navbar-nav px-3">
+                            <li class="nav-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                140 Le Trong Tan, Tay Thanh Ward, Tan Phu District, HCMC
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-sharp fa-solid fa-envelope"></i>
+                                cskh@bookespresso.com
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-phone"></i>
+                                0767487840
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="copyright-footer">
+                <p style="margin-left: 20em; color: hsla(0,0%,100%,.5); width: auto;">Copyright 2023 © <strong style=" color: hsla(0,0%,100%,.5);">BookEspresso.com</strong></p>                 
+            </div>
+    </section>
 </body>
 </html>
