@@ -5,3 +5,4 @@ function changeImg(smallImg){
     fullImg.style.height = "500px";
 }
 
+
